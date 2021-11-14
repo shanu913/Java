@@ -4,8 +4,9 @@ import java.io.IOException;
 
 public class Write {
 	
-	public static void main (String args[]) throws IOException
+	public static void main (String args[])
 	{
+		try {
 		File myobj=new File ("demo.txt");
 		
 		if(!myobj.exists())
@@ -18,6 +19,14 @@ public class Write {
 		mywrite.write("This is testing\nkindly ignore");
 		mywrite.close();
 		System.out.println("File created and written successfully");
+		
+		mywrite.close();
+		}
+		
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 }
