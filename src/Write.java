@@ -15,9 +15,9 @@ public class Write {
 		}
 		
 		FileWriter mywrite= new FileWriter(myobj);
-		mywrite.write("This is testing");
+		mywrite.write("This is testing\nkindly ignore");
 		mywrite.close();
-		System.out.println("Done");
+		System.out.println("File created and written successfully");
 	}
 
 }
