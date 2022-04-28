@@ -12,9 +12,11 @@ public class CountCharOccurrence {
 		//String s="This is testing";
 		int len=str.length();
 		int countafterremove=str.replace("t", "").length();
-		//System.out.println(countafterremove);
+		System.out.println(countafterremove);
 		int count=len-countafterremove;
 		System.out.println(count);
+		//sc.close();
+		sc.close();
 
 	}
 
