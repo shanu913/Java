@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test {
+public class ArraySortUsingLoop {
 
 	public static void main(String[] args) {
 	
@@ -18,7 +18,7 @@ public class Test {
 
 }
 */
-		int arr []={3,1,1,4,5,2};
+		int arr []={3,1,4,5,2};
         int len=arr.length;
         //System.out.println(len);
         
