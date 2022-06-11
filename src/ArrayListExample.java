@@ -8,6 +8,11 @@ public class ArrayListExample {
 		List.add("Shanu");
 		List.remove(0);
 		System.out.println(List);
+		
+		for (String item: List)
+		{
+			System.out.println(item);
+		}
 
 	}
 

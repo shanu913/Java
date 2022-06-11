@@ -3,7 +3,7 @@ public class ArrayMaxElement {
 	
 	public static void main (String[] args)
 	{
-		int arr[]= {5, 4, 9, 2};
+		int arr[]= {5, 4, 9, 2, 18};
 		
 		int len=arr.length;
 		
