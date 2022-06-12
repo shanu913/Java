@@ -1,9 +1,9 @@
 
-public class DublicateChar {
+public class DuplicateChar {
 	
 	public static void main(String [] args)
 	{
-		String str="shansua"; int count=0;
+		String str="shasnsua te tet"; int count=0;
 		
 		int len=str.length();
 		char []ch=str.toCharArray();
@@ -11,18 +11,24 @@ public class DublicateChar {
 		
 		for(int i=0; i<len; i++)
 		{
+			count=1;
 			for(int j=i+1; j<len; j++)
 			{
-				if (ch[i]==ch[j])
+				if (ch[i]==ch[j] && ch[i]!=' ') 
 				{
-					System.out.println(ch[j]);
 					count++;
+					ch[j]='0';
 			
 				}
 			}
+			
+			if (count>1 && ch[i]!='0')
+			{
+				System.out.println(ch[i]);
+			}
 		}
 		
-		System.out.println(count);
+	
 	}
 
 }
