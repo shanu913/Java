@@ -1,4 +1,5 @@
-//A palindromic number (also known as a numeral palindrome or a numeric palindrome) is a number (such as 16461) that remains the same when its digits are reversed.
+//A string is called a palindrome string if the reverse of that string is the same as the original string. For example, radar , level , etc. 
+//Similarly, a number that is equal to the reverse of that same number is called a palindrome number. For example, 3553, 12321, etc.
 public class PalindNo {
 
 	public static void main(String [] args)

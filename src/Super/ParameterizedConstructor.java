@@ -7,7 +7,7 @@ public class ParameterizedConstructor {
 	}
 
 	public static void main(String args[]) {
-		//ParameterizedConstructor t=new ParameterizedConstructor();
+		//ParameterizedConstructor t=new Par+ameterizedConstructor();
 		ParameterizedConstructor t1=new ParameterizedConstructor(10);
 	}
 

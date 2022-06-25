@@ -6,13 +6,23 @@ public class DuplicateChar {
 		String str="shasnsua te tet"; int count=0;
 		
 		int len=str.length();
+		System.out.println(len);
 		char []ch=str.toCharArray();
 		
+		int e= ch.length;
 		
-		for(int i=0; i<len; i++)
+		System.out.println(e);
+		
+		for (char item: ch)
+		{
+			//System.out.print(item + ",");
+		}
+		
+		
+		for(int i=0; i<e; i++)
 		{
 			count=1;
-			for(int j=i+1; j<len; j++)
+			for(int j=i+1; j<e; j++)
 			{
 				if (ch[i]==ch[j] && ch[i]!=' ') 
 				{
