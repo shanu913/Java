@@ -7,7 +7,12 @@ public class ArrSort {
 
 		System.out.println("Before sorting");
 		Arrays.sort(a);
-		System.out.println("After Sorting= \n" + Arrays.toString(a));
+		//System.out.println("After Sorting= \n" + Arrays.toString(a));
+		
+		for (int ele: a)
+		{
+			System.out.print(ele + ",");
+		}
 
 	}
 }

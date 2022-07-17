@@ -22,6 +22,16 @@ public class RevWordsInString {
 			rev=rev+a[i]+" ";
 		}
 		System.out.println(rev);
+		
+		if (str.equalsIgnoreCase(rev))
+		{
+			System.out.println("palind");
+		}
+		
+		else
+		{
+			System.out.println("not plaind");
+		}
 	}
 
 }

@@ -6,7 +6,7 @@ public class DuplicateElementsinArray {
 
 		int arr[]= {2, 5, 2, 6, 5,9};
 
-		int len=arr.length; int count=0;
+		int len=arr.length;
 
 		for(int i=0; i<len; i++)
 		{

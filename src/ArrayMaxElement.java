@@ -11,7 +11,7 @@ public class ArrayMaxElement {
 		
 		int max=arr[0];
 		
-		for(int i=1; i<len;i++)
+		for(int i=0; i<len;i++)
 		{
 			if (arr[i]>max)
 			{

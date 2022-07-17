@@ -17,7 +17,7 @@ public class RevEachWordInString {
 			 for (int j=word.length()-1; j>=0; j--)
 			 {
 				 revword=revword+word.charAt(j);
-				 System.out.println(revword);
+				 //System.out.println(revword);
 			 }
 			 
 			 revString=revString+revword+ " ";

@@ -4,21 +4,14 @@ public class ArraySum {
 
 	public static void main(String args [])
 	{
-		Scanner sc=new Scanner(System.in);
+		int arr[]= {5, 6, 1}; int sum=0;
 		
-		System.out.println("Input your value ...");
+		for (int i=0; i<arr.length; i++)
+		{
+			sum=sum+ arr[i];
+		}
 		
-		int a=sc.nextInt();
-		
-		int b=sc.nextInt();
-		
-		a=a+b;
-		
-		b=a-b;
-		
-		a=a-b;
-		
-		System.out.println("After swapping a= " + a + "b = " +b);
+		System.out.println(sum);
 	}
 
 }
